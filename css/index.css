@@ -6,6 +6,7 @@ body{
 	font-size:62.5%;
 	background-image:url(../img/bgfive.jpg);
 	background-repeat:no-repeat;
+	min-width: 800px;
 }
 .head-title{
 	width:100%;
@@ -38,10 +39,10 @@ body{
 }
 .body-box .task a{
 	text-decoration:none;
-	color:red;
 }
 .task:hover{
 	transform: rotateZ(360deg);
 	transition: 2s;
 	background-color:green;
+	color: red;
 }
