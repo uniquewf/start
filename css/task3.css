@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	Font-size:62.5%;
+	min-width: 650px;
+	
+}
+.box{
+	margin:0 30%;
+	background-color: #68cdd5;
+	text-align: center;
+}
+.title,.body-title{
+	text-align: center;
+}
+.box .title{
+	position: relative;
+	width: 100%;
+}
+.box .title img{
+	width: 100%;
+	height: 8em;
+
+}
+.box .btnback{
+	float: left;
+	margin-left: 3em;
+}
+.box .btnback img{
+	left: 25em;
+}
+.box .body-title{
+	left: 20em;
+	padding-top: 5em;
+}
+
+.box .body-content{
+	margin-top: 5em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+.box .body-content p{
+	font-size: 2em;
+	line-height: 2em;
+	text-align: left;
+	color: white;
+}
+
+.box .end{
+	position: relative;
+	height: 10em;
+	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.end .leftimg{
+	position: relative;
+	margin-right: 7em;
+}
+.end .rightimg{
+	position: relative;
+	margin-left: 7em;
+}
