@@ -1,66 +1,34 @@
-*{
-	margin:0;
-	padding:0;
-}
-body{
-	Font-size:62.5%;
-	min-width: 650px;
-	
-}
-.box{
-	margin:0 30%;
-	background-color: #68cdd5;
-	text-align: center;
-}
-.title,.body-title{
-	text-align: center;
-}
-.box .title{
-	position: relative;
-	width: 100%;
-}
-.box .title img{
-	width: 100%;
-	height: 8em;
 
-}
-.box .btnback{
-	float: left;
-	margin-left: 3em;
-}
-.box .btnback img{
-	left: 25em;
-}
-.box .body-title{
-	left: 20em;
-	padding-top: 5em;
-}
+			.box {
+				width: 100%;
+				max-width: 800px;
+				background-color: #68cdd5;
+			}
+			
+			.box .btnback img{
+				width: 10%;margin-left: 5%;
+			}
 
-.box .body-content{
-	margin-top: 5em;
-	margin-left: 5em;
-	margin-right: 5em;
-}
-.box .body-content p{
-	font-size: 2em;
-	line-height: 2em;
-	text-align: left;
-	color: white;
-}
 
-.box .end{
-	position: relative;
-	height: 10em;
-	text-align: center;
-	padding-top: 5em;
-	padding-bottom: 5em;
-}
+			.box .body_title {
+				text-align: center;
+				padding-top: 10%;
+			}
+			
+			.box .body_title img{
+				width: 50%;margin: 0 10%;
+			}
 
-.end .leftimg{
-	position: relative;
-	margin-right: 7em;
-}
-.end .rightimg{
-	position: relative;
-	margin-left: 7em;
-}
+			.box .body_content{
+				margin: 10% 10% 0 10%;
+			}
+			.box .body_content p{
+				text-align: left;color: white;line-height: 2rem;font-size: 1.5rem;
+			}
+			.box .end {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				margin: 10%;
+				padding-bottom: 10%;
+			}
