@@ -7,7 +7,7 @@
 			filter: progid:DXImageTransform.Microsoft.A;phalmageLoader(src='bgfive.jpg',sizingMethod='scale');			
 		}
 		
-		header {
+		.nva{
 			color: white;
 			text-align: center;
 			font-size: 1.5rem;
@@ -21,7 +21,7 @@
 			float: left;
 		}
 		
-		.main .task {
+		.main .divtask {
 			width: 20%;
 			background-color: rgba(0, 0, 0, 0.1);
 			float: left;
@@ -32,13 +32,13 @@
 			font-size: 2rem;
 		}
 		
-		.main .task a {
+		.main .divtask a {
 			text-decoration: none;
 			color: white;
 			font-size: 1rem;
 		}
 		
-		.task:hover {
+		.divtask:hover {
 			transform: rotateZ(360deg);
 			transition: 2s;
 			background-color: green;
