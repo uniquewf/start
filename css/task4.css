@@ -1,5 +1,8 @@
-  .header{
-           		background-color: #B0E2FF;
+          body{
+            background-color: #EEEEEE;
+          }
+           .header{
+           		background-color: #87CEEB;
            		height: 50px;
               position: relative;
            }
@@ -28,3 +31,93 @@
               position:absolute;
               line-height: 50px;
            }
+
+           .middle1 .middle1phone{
+            float: left;
+            width: 10%;  
+            height: 55px; 
+            text-align: center;   
+            background-color: white;   
+           
+           } 
+
+            .middle1 .middle1phone img{
+               height: 45px; 
+               padding: 5px 0;
+               
+            }
+
+           .middle1 .middle1uname{
+              float: right;
+              width: 90%;
+             
+              border: none;
+              background-color: white;
+           }
+
+           .middle1 .middle1uname input{
+            width: 99.9%;
+            height: 100%;
+            border: none;
+            text-indent: 2em;
+            border-left: 1px solid #000000;
+            margin: 5px 0;
+            padding: 15px 0;
+            background-color: white;
+            outline: none;
+           }
+
+             .middle2 .middle2pwd{
+            float: left;
+            width: 10%;  
+            height: 55px; 
+            text-align: center;   
+            background-color: white;   
+            margin-top: 20px;
+           } 
+
+            .middle2 .middle2pwd img{
+               height: 45px; 
+               padding: 5px 0;
+               
+            }
+
+           .middle2 .middle2upwd{
+              float: right;
+              width: 90%;
+              border: none;
+              background-color: white;
+              margin-top: 20px;
+           }
+
+           .middle2 .middle2upwd input{
+            width: 99.9%;
+            height: 100%;
+            border: none;
+            text-indent: 2em;
+            border-left: 1px solid #000000;
+            margin: 5px 0;
+            padding: 15px 0;
+            background-color: white;
+            outline: none;
+           }
+
+           .btnLogin{
+              width: 100%;
+              height: 50px;
+              margin-top: 20px;
+              background-color: #87CEEB;
+              border: none;
+              font-size: 1.5rem;
+              color: white;
+           }
+
+          .forgetpwd{
+            margin-top: 20px;
+          }
+
+          .forgetpwd a{
+            display: block;
+            color: #87CEEB;
+            padding-right: 20px;
+          }
